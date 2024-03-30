@@ -1,0 +1,78 @@
+---
+title: "Visual Studio Code"
+subtitle: "Estudo dirigido de Visual Studio Code"
+author: "Sergio Pedro R Oliveira"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+#lof: true #adiciona lista de figuras
+#lot: true #adiciona lista de tabelas
+#toc-title: SUMÁRIO #nome do sumário
+output:
+  md_document:
+    number_sections: true
+    variant: markdown_github
+  odt_document:
+    number_sections: yes
+  html_document:
+    toc: yes
+    df_print: paged
+  pdf_document:
+    number_sections: yes
+    toc: no
+  word_document:
+    toc: yes
+    number_sections: yes
+bibliography: RMarkdown/bibliografia.bib
+csl: RMarkdown/abnt.csl
+---
+
+\thispagestyle{empty}
+
+\newpage
+\pagenumbering{roman}
+
+```{=latex}
+\setcounter{tocdepth}{4}
+\renewcommand{\contentsname}{SUMÁRIO}
+\tableofcontents
+```
+
+\newpage
+
+```{=latex}
+\setcounter{tocdepth}{4}
+\renewcommand{\listfigurename}{LISTA DE FIGURAS}
+\listoffigures
+```
+
+\newpage
+
+```{=latex}
+\setcounter{tocdepth}{4}
+\renewcommand{\listtablename}{LISTA DE TABELAS}
+\listoftables
+```
+
+```{r Pacotes, message=FALSE, warning=FALSE, echo=FALSE}
+library(knitr)
+library(rmarkdown)
+library(readr)
+library(tibble)
+library(magrittr)
+library(dplyr)
+library(tidyr)
+library(data.table)
+library(janitor)
+```
+
+\newpage
+
+# OBJETIVO
+
+Estudo dirigido de Visual Studio Code.\
+
+\pagenumbering{arabic}
+\newpage
+
+# PRINCIPAIS TÓPICOS
+1. Introdução\
+2. Atalhos e configurações essenciais\
