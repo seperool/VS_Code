@@ -1,10 +1,15 @@
-ESCRITO EM 01/04/24
+ESCRITO EM 02/04/24
 ---
-PARA 02/04/24
+PARA 03/04/24
 ---
 Subir github:
 
 Estudar:
 	- Seção 2 - Atalhos e configurações essenciais
-		- 22 a 31
+		- 23 a 31
 Afazeres:
+	- Escrever
+		- Seção 1 - Introdução
+			- 1 a 9
+		- Seção 2 - Atalhos e configurações essenciais
+			- 15 a 21
