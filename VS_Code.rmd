@@ -9,18 +9,18 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   odt_document:
     number_sections: yes
-  pdf_document:
+  word_document:
+    toc: yes
     number_sections: yes
-    toc: no
   html_document:
     toc: yes
     df_print: paged
   md_document:
     number_sections: true
     variant: markdown_github
-  word_document:
-    toc: yes
+  pdf_document:
     number_sections: yes
+    toc: no
 bibliography: RMarkdown/bibliografia.bib
 csl: RMarkdown/abnt.csl
 ---
@@ -74,6 +74,20 @@ Estudo dirigido de Visual Studio Code.\
 \newpage
 
 # INTRODUÇÃO
+
+## Instalação
+
+### Windows
+### Linux
+
+## Conhecendo o **VS Code**
+
+### Barra de navegação principal
+### Activiy bar
+### Panels e status bar
+
+\newpage
+
 # ATALHOS E CONFIGURAÇÕES ESSENCIAIS
 
 ## Esconder sidebar (barra lateral do projeto)
@@ -91,6 +105,51 @@ Estudo dirigido de Visual Studio Code.\
 `code .`\
 É necessário esta na pasta para abri-la.\
 
+## Abrir janela de erros via comando
+
+- O atalho para abrir, ou ocultar, a janela de erro é:\
+`Crtl + Shift + m`\
+
+## Configurações do sistema **VS Code**
+
+- O atalho para acessar as configurações do sistema do **VS Code** é:\
+`Ctrl + ,`\
+
+- Na configuração do sistema podemos alterar coisas como:\
+  - Tamanho da fonte.\
+  - Fonte.\
+  - Definir arquivos excluídos do editor.\
+  - ...\
+
+\newpage
+
+## Salvamento automático
+
+- Para habilitar o salvamento automático:\
+`Arquivo > Salvamento automático`\
+
+## Baixando novas extensões
+
+- É recomendado para ter um entendimento melhor sobre a extensão, abrir a pagina dela no marketplace do Visual Studio.\
+<https://marketplace.visualstudio.com/>
+
+- No marketplace do Visual Studio são fornecidos informações sobre a extensão, comentários de usuarios (perguntas e respostas) e o rating da extensão.\
+
+## Baixando extensões recomendadas
+
+- O VS Code lista na aba de extensões: 
+  - Extensões baixadas no sistema.\
+  - As principais extensões, mais bem avaliadas e baixadas do **VS Code**.\
+
+- Outro recurso é as recomendações do **VS Code** para o usuário. Para acessar digitamos o comando na barra de procura por extensões:\
+`@recommended`\
+Então é listado recomendações de extensões do **VS Code** levando em consideração o perfil do usuário, baseado nos arquivos abertos recentemente pelo usuário.\
+
+![Recomendações de extensões do **VS Code** para o perfil do usuário, usando o comando `@recommended`.](RMarkdown/Imagens/Recomendacoes_extensoes_vs_code.png){width=60%}
+
+
+\newpage
+
 ## Abrir terminal no **VS Code**
 
 - Para abrir o terminal no **VS Code** usamos:\
@@ -101,3 +160,10 @@ Estudo dirigido de Visual Studio Code.\
 
 - Para fechar o terminal usamos o comando no terminal:\
 `exit`\
+
+## Ativando modo zen no **VS Code**
+
+- Modo zen deixa apenas o código em tela cheia, eliminando outras distrações.\
+`Ver > Aparência > Modo zen`\
+
+![Modo zen.](RMarkdown/Imagens/Modo_zen.png){width=60%}
