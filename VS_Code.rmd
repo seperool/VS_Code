@@ -7,19 +7,19 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 #lot: true #adiciona lista de tabelas
 #toc-title: SUMÁRIO #nome do sumário
 output:
+  odt_document:
+    number_sections: yes
   pdf_document:
     number_sections: yes
     toc: no
-  word_document:
-    toc: yes
-    number_sections: yes
   html_document:
     toc: yes
     df_print: paged
   md_document:
     number_sections: true
     variant: markdown_github
-  odt_document:
+  word_document:
+    toc: yes
     number_sections: yes
 bibliography: RMarkdown/bibliografia.bib
 csl: RMarkdown/abnt.csl
@@ -75,3 +75,29 @@ Estudo dirigido de Visual Studio Code.\
 
 # INTRODUÇÃO
 # ATALHOS E CONFIGURAÇÕES ESSENCIAIS
+
+## Esconder sidebar (barra lateral do projeto)
+
+- Para esconder, ou exibir, a barra lateral do projeto, onde se encontra a navegação das pastas e arquivos do projeto, usamos:\
+`Ctrl + b`\
+
+## Abrir arquivos rápidamente
+
+- Podemos usar o comando `Ctrl + p` para procurar e abrir o arquivo pelo nome, dentro da pasta em que estamos trabalhando.\
+
+## Abrir o **VS Code** pelo terminal
+
+- No terminal, podemos abrir determinada pasta de um projeto direto no **VS Code** usando o comando:\
+`code .`\
+É necessário esta na pasta para abri-la.\
+
+## Abrir terminal no **VS Code**
+
+- Para abrir o terminal no **VS Code** usamos:\
+`Ctrl + '`\
+
+- Também podemos abrir vários terminais em paralelo, usando:\
+`Ctrl + Shift + '`\
+
+- Para fechar o terminal usamos o comando no terminal:\
+`exit`\
