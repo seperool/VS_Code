@@ -7,8 +7,9 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 #lot: true #adiciona lista de tabelas
 #toc-title: SUMÁRIO #nome do sumário
 output:
-  odt_document:
+  pdf_document:
     number_sections: yes
+    toc: no
   word_document:
     toc: yes
     number_sections: yes
@@ -18,9 +19,8 @@ output:
   md_document:
     number_sections: true
     variant: markdown_github
-  pdf_document:
+  odt_document:
     number_sections: yes
-    toc: no
 bibliography: RMarkdown/bibliografia.bib
 csl: RMarkdown/abnt.csl
 ---
@@ -77,13 +77,108 @@ Estudo dirigido de Visual Studio Code.\
 
 ## Instalação
 
+<https://code.visualstudio.com/download>
+
 ### Windows
+
+- Baixar instalador pelo site:\
+<https://code.visualstudio.com/download>
+
 ### Linux
+
+#### snap
+
+- Podemos instalar o VS Code pelo terminal, através do comando:\
+`sudo snap install --classic code`\
+
+#### apt
+
+- Update repositório:\
+`sudo apt update`\
+
+- Instalando dependências do pacote:\
+`sudo apt install software-properties-common apt-transport-https wget -y`
+
+- Adicionando chave GPG:\
+`wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -`
+
+- Adicionando Repositório:\
+```
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+```
+
+- Instalando **VS Code**:\
+`sudo apt install code`
+
+\newpage
+
+#### GUI
+
+- Passo a passo:\
+
+![Gerenciador de pacotes GUI.](RMarkdown/Imagens/GUI.png){width=60%}
+
+
+![Procurando e instalando **VS Code**.](RMarkdown/Imagens/Install_VSCode_GUI.png){width=60%}
+
+
+#### Instalador .tar.gz
+
+- Baixar o instalador pelo site:\
+<https://code.visualstudio.com/download>
+
+- Instalar o arquivo `.tar.gz`.\
+
+\newpage
 
 ## Conhecendo o **VS Code**
 
 ### Barra de navegação principal
-### Activiy bar
+
+\newpage
+
+### Activity bar
+
+- Explorar:\
+  - Ver a pasta/projeto que estamos trabalhando no momento.\
+  - Navega pelos arquivos da pasta.\
+
+![Explorar.](RMarkdown/Imagens/Explorador.png){width=60%}
+
+
+- Pesquisar:\
+  - Pesquisa por determinadas palavras no código (todas as ocorrências).\
+  - Podemos substituir determinadas palavros por outras também.\
+
+![Pesquisar.](RMarkdown/Imagens/Pesquisar.png){width=60%}
+
+
+\newpage
+
+- Controle de código-fonte/versionamento (**git**/**github**):\
+  - Destinado ao controle de versionamento (como *add*, *commit*, *push*, *pull*, ...).\
+
+![Controle de versionamento (**git** e **github**).](RMarkdown/Imagens/Controle_versionamento.png){width=60%}
+
+
+- Executar e apurar:\
+  - Faz o debug (procurar e corrigir erros).\
+  - Roda a aplicação.\
+
+![Executar e apurar o código.](RMarkdown/Imagens/Executar_debug.png){width=60%}
+
+
+\newpage
+
+- Extensões:\
+  - Procurar extensões.\
+  - Baixar extensões.\
+
+![Extensões.](RMarkdown/Imagens/Extensoes.png){width=60%}
+
+
+\newpage
+
 ### Panels e status bar
 
 \newpage
