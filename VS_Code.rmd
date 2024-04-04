@@ -7,19 +7,19 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 #lot: true #adiciona lista de tabelas
 #toc-title: SUMÁRIO #nome do sumário
 output:
+  odt_document:
+    number_sections: yes
   pdf_document:
     number_sections: yes
     toc: no
-  word_document:
-    toc: yes
-    number_sections: yes
   html_document:
     toc: yes
     df_print: paged
   md_document:
     number_sections: true
     variant: markdown_github
-  odt_document:
+  word_document:
+    toc: yes
     number_sections: yes
 bibliography: RMarkdown/bibliografia.bib
 csl: RMarkdown/abnt.csl
@@ -180,6 +180,20 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 \newpage
 
 ### Panels e status bar
+
+- Side bar:\
+  - Arquivos abertos.\
+  - Árvore do projeto.\
+  Todos os arquivos que compõem o projeto, ou estão na pasta do projeto.\
+
+- Status bar (barra inferior):\
+  - Informa a *branch* do controle de versionamento (*git*/*github*).\
+  - Botão para sinconizar as alterações no projeto (controle de versionamento).\
+  - Informações de erros no projeto (*debug*).\
+
+- minimap (lateral direita):\
+  - Resumo visual do código.\
+  - Facilita a navegação pelo código.\
 
 \newpage
 
