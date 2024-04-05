@@ -133,7 +133,51 @@ sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/v
 
 ## Conhecendo o **VS Code**
 
-### Barra de navegação principal
+### Barra de navegação principal (barra superior)
+
+- Arquivo:\
+Controla ações relacionadas aos arquivos.\
+  - Abrir arquivos em branco.\
+  - Abrir arquivos.\
+  - Abrir pastas.\
+  - Arquivos recentes.\
+  - Salvar.\
+  - Salvar como.\
+  - Salvar automático.\
+
+- Editar:\
+Recursos relacinados com a edição dos arquivos.\
+  - Cortar.\
+  - Copiar.\
+  - Colar.\
+  - Desfazer.\
+  - Refazer.\
+  - Localizar.\
+  - Substituir.\
+
+- Seleção:\
+Opções de seleção de texto.\
+  - Selecionar tudo.\
+  - Expandir.\
+  - Reduzir.\
+  - Selecionar todas as ocorrências de determinada palavra.\
+
+\newpage
+
+- Ver:\
+Altera a view (área util) do **VS Code**.\
+
+- Acessar:\
+Ir para algum lugar.\
+
+- Executar:\
+Rodar uma aplicação e um debug.\
+
+- Terminal:\
+Detalhar os terminais.\
+
+- Ajuda:\
+Informações e documentações sobre o editor **VS Code**.\
 
 \newpage
 
