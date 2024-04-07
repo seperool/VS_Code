@@ -7,19 +7,19 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 #lot: true #adiciona lista de tabelas
 #toc-title: SUMÁRIO #nome do sumário
 output:
-  odt_document:
-    number_sections: yes
   pdf_document:
     number_sections: yes
     toc: no
+  word_document:
+    toc: yes
+    number_sections: yes
   html_document:
     toc: yes
     df_print: paged
   md_document:
     number_sections: true
     variant: markdown_github
-  word_document:
-    toc: yes
+  odt_document:
     number_sections: yes
 bibliography: RMarkdown/bibliografia.bib
 csl: RMarkdown/abnt.csl
@@ -320,3 +320,18 @@ Então é listado recomendações de extensões do **VS Code** levando em consid
 `Ver > Aparência > Modo zen`\
 
 ![Modo zen.](RMarkdown/Imagens/Modo_zen.png){width=60%}
+
+
+\newpage
+
+## Edição de arquivos *side-by-side*
+
+- Podemos abrir dois, ou mais, arquivos ao mesmo tempo na mesma janela, essa opção é achamada de *side-by-side*.\
+
+- Atalho:\
+`Ctrl + ]`\
+
+![Edição *side-by-side*.](RMarkdown/Imagens/side-by-side.png){width=60%}
+
+
+\newpage
