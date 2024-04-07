@@ -1,14 +1,14 @@
-ESCRITO EM 05/04/24
+ESCRITO EM 06/04/24
 ---
-PARA 06/04/24
+PARA 07/04/24
 ---
 Subir github:
-	- Barra de navegação principal
+
 Estudar:
 	- Seção 2 - Atalhos e configurações essenciais
-		- 24 a 31
+		- 25 a 31
 Afazeres:
 	- Escrever
 		- Seção 2 - Atalhos e configurações essenciais
-			- 24 a 31
-			- Teste 1
+			- 25 a 31
+				- Teste 1
