@@ -7,19 +7,19 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 #lot: true #adiciona lista de tabelas
 #toc-title: SUMÁRIO #nome do sumário
 output:
+  odt_document:
+    number_sections: yes
   pdf_document:
     number_sections: yes
     toc: no
-  word_document:
-    toc: yes
-    number_sections: yes
   html_document:
     toc: yes
     df_print: paged
   md_document:
     number_sections: true
     variant: markdown_github
-  odt_document:
+  word_document:
+    toc: yes
     number_sections: yes
 bibliography: RMarkdown/bibliografia.bib
 csl: RMarkdown/abnt.csl
@@ -331,7 +331,73 @@ Então é listado recomendações de extensões do **VS Code** levando em consid
 - Atalho:\
 `Ctrl + ]`\
 
+- Outra forma, podemos arrastar o arquivo (da barra lateral a esquerda) para a janela, abrindo assim a opção *side-by-side* também.\
+
+- O atalho `Ctrl + número` também abre mais abas laterais (em paralelo) *side-by-side*.\
+`Ctrl + 1`\
+`Ctrl + 2`\
+...\
+
 ![Edição *side-by-side*.](RMarkdown/Imagens/side-by-side.png){width=60%}
 
+
+\newpage
+
+## Ir para um arquivo do projeto
+
+- Existem arquivos referênciados no código, podemos acessa-los sem precisar procurar por eles na pasta do projeto.\
+
+- Atalho:\
+`Ctrl + click no link do arquivo no código`\
+Esse atalho abre o arquivo direto pelo link contido no código.\
+
+![Acessando um arquivo referênciado no código do projeto.](RMarkdown/Imagens/Acesso_arquivo_projeto.png){width=60%}
+
+
+\newpage
+
+## Fechar arquivos de forma rápida
+
+- Para agilizar o processo de fechar uma aba de um arquivo.\
+
+- Atalho:\
+`Ctrl + w`\
+
+## Navegação entre arquivos
+
+- Podemos trocar entre os arquivos abertos de forma rápida.\
+
+- Atalho:\
+`Ctrl + Tab`\
+
+## Reabrir um arquivo recentemente fechado
+
+- Podemos reabrir um arquivo que foi recentemente fechado.\
+
+- Atalho:\
+`Ctrl + shift + t`\
+
+\newpage
+
+## Verificando extensões ativas
+
+- Podemos verificar as extensões ativas no **VS Code**.\
+
+- Ao longo do tempo, muitas extensões ativas podem pesar o **VS Code**. Podemos verificar as extensões que não estão sendo usadas e desinstalar para aliviar o programa.\
+
+- Comando para verificar as extensões ativas:\
+`Ctrl + shift + p`\
+Escrever o comando: `show running extensions`\
+Abre um lista com todas as extensões ativas no momento.\
+
+- Para desinstalar uma extensão:\
+Basta ir na Activity Bar (barra lateral a esquerda), na opção extensões, procurar pela extensão em instalado e clickar em desinstalar a extensão.\
+
+![Desinstalando uma extensão.](RMarkdown/Imagens/Desinstalar_extensao.png){width=60%}
+
+
+\newpage
+
+# ATALHOS AVANÇADOS E HACKS PARA EDIÇÃO
 
 \newpage
