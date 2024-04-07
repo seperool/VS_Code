@@ -1,14 +1,13 @@
-ESCRITO EM 06/04/24
+ESCRITO EM 07/04/24
 ---
-PARA 07/04/24
+PARA 08/04/24
 ---
 Subir github:
 
 Estudar:
-	- Seção 2 - Atalhos e configurações essenciais
-		- 25 a 31
+	- Seção 3 - Atalhos avançados e hacks para edição
+		- 32 a 53
 Afazeres:
 	- Escrever
-		- Seção 2 - Atalhos e configurações essenciais
-			- 25 a 31
-				- Teste 1
+		- Seção 3 - Atalhos avançados e hacks para edição
+			- 32
