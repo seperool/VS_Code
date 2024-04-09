@@ -9,18 +9,18 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   odt_document:
     number_sections: yes
-  pdf_document:
+  word_document:
+    toc: yes
     number_sections: yes
-    toc: no
   html_document:
     toc: yes
     df_print: paged
   md_document:
     number_sections: true
     variant: markdown_github
-  word_document:
-    toc: yes
+  pdf_document:
     number_sections: yes
+    toc: no
 bibliography: RMarkdown/bibliografia.bib
 csl: RMarkdown/abnt.csl
 ---
@@ -401,3 +401,8 @@ Basta ir na Activity Bar (barra lateral a esquerda), na opção extensões, proc
 # ATALHOS AVANÇADOS E HACKS PARA EDIÇÃO
 
 \newpage
+
+# EXPLORANDO O TERMINAL DO **VS CODE**
+# MINI CURSO DE EMMET
+# MELHORES EXTENSÕES PARA PRODUTIVIDADE
+# PRODUTIVIDADE COM REACT
