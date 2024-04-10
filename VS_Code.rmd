@@ -400,6 +400,13 @@ Basta ir na Activity Bar (barra lateral a esquerda), na opção extensões, proc
 
 # ATALHOS AVANÇADOS E HACKS PARA EDIÇÃO
 
+## Editando várias linhas
+
+- Podemos editar diversas linhas de uma vez só (Principalmente se forem iguais).\
+
+- Comando:\
+`Alt + clickar nas linhas que deseja editar`\
+
 \newpage
 
 # EXPLORANDO O TERMINAL DO **VS CODE**
