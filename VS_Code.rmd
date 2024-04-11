@@ -9,18 +9,18 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 output:
   odt_document:
     number_sections: yes
-  word_document:
-    toc: yes
+  pdf_document:
     number_sections: yes
+    toc: no
   html_document:
     toc: yes
     df_print: paged
   md_document:
     number_sections: true
     variant: markdown_github
-  pdf_document:
+  word_document:
+    toc: yes
     number_sections: yes
-    toc: no
 bibliography: RMarkdown/bibliografia.bib
 csl: RMarkdown/abnt.csl
 ---
@@ -406,6 +406,13 @@ Basta ir na Activity Bar (barra lateral a esquerda), na opção extensões, proc
 
 - Comando:\
 `Alt + clickar nas linhas que deseja editar`\
+
+## Editando palavras iguais
+
+- Podemos selecionar todas as palavras iguais e editar elas a partir de um comando.\
+
+- Comando:\
+`Crtl + shift + l`, com o cursor na palavra.\
 
 \newpage
 
