@@ -7,19 +7,19 @@ date: "`r format(Sys.time(), '%d %B %Y')`"
 #lot: true #adiciona lista de tabelas
 #toc-title: SUMÁRIO #nome do sumário
 output:
-  odt_document:
-    number_sections: yes
   pdf_document:
     number_sections: yes
     toc: no
+  word_document:
+    toc: yes
+    number_sections: yes
   html_document:
     toc: yes
     df_print: paged
   md_document:
     number_sections: true
     variant: markdown_github
-  word_document:
-    toc: yes
+  odt_document:
     number_sections: yes
 bibliography: RMarkdown/bibliografia.bib
 csl: RMarkdown/abnt.csl
@@ -413,6 +413,37 @@ Basta ir na Activity Bar (barra lateral a esquerda), na opção extensões, proc
 
 - Comando:\
 `Crtl + shift + l`, com o cursor na palavra.\
+
+## Encontrando e editando ocorrências semelhantes (ERROR)
+
+- Podemos encontrar a próxima ocorrência de determinada palavra, por conseguencia podemos edita-lo.\
+
+- Procedimento:\
+Selecionar a palavra que deseja encontrar.\
+`Crtl + d`\
+
+- Não esta funcionando.\
+
+## Seleção em coluna
+
+- Podemos selecionar em coluna.\
+
+- Facilita edição de varios itens que estão na mesma coluna, evita o erro de seleção.\
+
+- Comando:\
+`Shift + Alt + seta`\
+
+## Mover linha de código para cima ou para baixa
+
+- Podemos mover determina linha(s) de código para cima ou para baixo.\
+
+- Procedimento:\
+cursor sobre a linha, ou selecionar linhas que deseja movimentar.\
+`Alt + seta para baixo ou para cima`\
+
+\newpage
+
+## Expandindo seleção
 
 \newpage
 
