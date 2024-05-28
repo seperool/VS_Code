@@ -438,12 +438,76 @@ Selecionar a palavra que deseja encontrar.\
 - Podemos mover determina linha(s) de código para cima ou para baixo.\
 
 - Procedimento:\
-cursor sobre a linha, ou selecionar linhas que deseja movimentar.\
+Cursor sobre a linha, ou selecionar linhas que deseja movimentar.\
 `Alt + seta para baixo ou para cima`\
 
 \newpage
 
 ## Expandindo seleção
+
+- Aumenta o bloco de seleção das indentações.\
+
+- Procedimento:\
+`Alt + shift + direita ou esquerda`\
+
+## Indo para linha especifica
+
+- Direciona para linha especifica.\
+
+- Procedimento:\
+`Ctrl + g + digitar número da linha`\
+
+## Voltando a posição do cursor
+
+- Volta o cursor para posição anterior.\
+
+- Procedimento:\
+`Ctrl + u`\
+
+## Reconstruir uma ação
+
+- Ao contrario de desfazer uma ação (`Ctrl + z`), o reconstruir uma ação avança uma ação.\
+
+- Procedimento:\
+`Ctrl + y`\
+
+## Removendo espaços em branco
+
+- Remove espaços em branco a esquerda do código.\
+
+- Processo:\
+Selecionar linhas\
+`Ctrl + k ctrl + x`\
+
+\newpage
+
+## Indo para início ou fim do arquivo
+
+- Indo para o início do arquivo:\
+`Ctrl + home`\
+
+- Indo para o fim do arquivo:\
+`Ctrl + end`\
+
+## Encontrar ocorrências da mesma palavra
+
+- Encontrar as várias ocorrências da mesma palavra e navegar por elas.\
+
+- Processo:\
+Selecionar a palavra, ou duplo click nela.\
+`Ctrl + f`\
+`Enter` navegamos entre as ocorrência.\
+
+\newpage
+
+## Buscando em arquivos
+## Deletando palavras
+## Selecionando uma palavra
+## Pulando palavras
+## Deletando Linhas
+## Exibindo sugestões
+## Comentando código mais rápido
+## Identando para frente e para trás
 
 \newpage
 
