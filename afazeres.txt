@@ -1,13 +1,13 @@
-ESCRITO EM 03/05/24
+ESCRITO EM 28/05/24
 ---
-PARA 03/05/24
+PARA 29/05/24
 ---
 Subir github:
 
 Estudar:
 	- Seção 3 - Atalhos avançados e hacks para edição
-		- 38 a 53
+		- 45 a 53
 Afazeres:
 	- Escrever
 		- Seção 3 - Atalhos avançados e hacks para edição
-			- 38
+			- 45
